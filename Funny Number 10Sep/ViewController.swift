@@ -9,6 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var numberLabel: UILabel!
+    
+    
+    @IBAction func decButton(_ sender: Any) {
+        print("Click DEC")
+    }
+      
+    
+    @IBAction func incButton(_ sender: Any) {
+        print("Click INC")
+    }
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
