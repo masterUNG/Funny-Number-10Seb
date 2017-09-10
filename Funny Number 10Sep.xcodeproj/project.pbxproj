@@ -16,6 +16,7 @@
 		C4AB57F51F64E0A10002F9C9 /* ic_save_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AB57F21F64E0A10002F9C9 /* ic_save_3x.png */; };
 		C4AB57F61F64E0A10002F9C9 /* ic_save.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AB57F31F64E0A10002F9C9 /* ic_save.png */; };
 		C4AB57F81F64E2780002F9C9 /* tobias-van-schneider-230167.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4AB57F71F64E2780002F9C9 /* tobias-van-schneider-230167.jpg */; };
+		C4AB57FA1F64FA940002F9C9 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB57F91F64FA940002F9C9 /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C4AB57F21F64E0A10002F9C9 /* ic_save_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save_3x.png; sourceTree = "<group>"; };
 		C4AB57F31F64E0A10002F9C9 /* ic_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save.png; sourceTree = "<group>"; };
 		C4AB57F71F64E2780002F9C9 /* tobias-van-schneider-230167.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tobias-van-schneider-230167.jpg"; sourceTree = "<group>"; };
+		C4AB57F91F64FA940002F9C9 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				C4AB57E61F64DB130002F9C9 /* Assets.xcassets */,
 				C4AB57E81F64DB130002F9C9 /* LaunchScreen.storyboard */,
 				C4AB57EB1F64DB130002F9C9 /* Info.plist */,
+				C4AB57F91F64FA940002F9C9 /* MyClass.swift */,
 			);
 			path = "Funny Number 10Sep";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				C4AB57E21F64DB130002F9C9 /* ViewController.swift in Sources */,
 				C4AB57E01F64DB130002F9C9 /* AppDelegate.swift in Sources */,
+				C4AB57FA1F64FA940002F9C9 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +321,7 @@
 				C4AB57F01F64DB130002F9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
