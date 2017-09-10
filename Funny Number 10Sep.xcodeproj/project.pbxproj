@@ -22,6 +22,7 @@
 		C4AB58021F6514BB0002F9C9 /* ic_keyboard_arrow_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AB57FF1F6514BB0002F9C9 /* ic_keyboard_arrow_left_2x.png */; };
 		C4AB58031F6514BB0002F9C9 /* ic_keyboard_arrow_left_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AB58001F6514BB0002F9C9 /* ic_keyboard_arrow_left_3x.png */; };
 		C4AB58041F6514BB0002F9C9 /* ic_keyboard_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AB58011F6514BB0002F9C9 /* ic_keyboard_arrow_left.png */; };
+		C4AB58061F65236F0002F9C9 /* ShowOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB58051F65236F0002F9C9 /* ShowOneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C4AB57FF1F6514BB0002F9C9 /* ic_keyboard_arrow_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_left_2x.png; sourceTree = "<group>"; };
 		C4AB58001F6514BB0002F9C9 /* ic_keyboard_arrow_left_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_left_3x.png; sourceTree = "<group>"; };
 		C4AB58011F6514BB0002F9C9 /* ic_keyboard_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_left.png; sourceTree = "<group>"; };
+		C4AB58051F65236F0002F9C9 /* ShowOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowOneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				C4AB57EB1F64DB130002F9C9 /* Info.plist */,
 				C4AB57F91F64FA940002F9C9 /* MyClass.swift */,
 				C4AB57FD1F65101D0002F9C9 /* TimerViewController.swift */,
+				C4AB58051F65236F0002F9C9 /* ShowOneViewController.swift */,
 			);
 			path = "Funny Number 10Sep";
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				C4AB57FE1F65101D0002F9C9 /* TimerViewController.swift in Sources */,
 				C4AB57E21F64DB130002F9C9 /* ViewController.swift in Sources */,
 				C4AB57E01F64DB130002F9C9 /* AppDelegate.swift in Sources */,
+				C4AB58061F65236F0002F9C9 /* ShowOneViewController.swift in Sources */,
 				C4AB57FA1F64FA940002F9C9 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

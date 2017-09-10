@@ -46,7 +46,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <barButtonItem systemItem="action" id="YTR-jO-w5E"/>
+                                    <barButtonItem systemItem="action" id="YTR-jO-w5E">
+                                        <connections>
+                                            <segue destination="0nY-79-8v5" kind="show" id="sOW-UP-mlM"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="nxZ-kG-FXE"/>
                                     <barButtonItem systemItem="refresh" id="L9G-50-eIj">
                                         <connections>
@@ -85,6 +89,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-791" y="170"/>
+        </scene>
+        <!--ShowOneViewController-->
+        <scene sceneID="g7g-4B-h4i">
+            <objects>
+                <viewController title="ShowOneViewController" id="0nY-79-8v5" customClass="ShowOneViewController" customModule="Funny_Number_10Sep" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G6F-wX-LBH"/>
+                        <viewControllerLayoutGuide type="bottom" id="cR1-kD-0WP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vop-tb-6fz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WyL-M5-TuL">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Show ONE" id="Xp1-X0-i7d">
+                                        <barButtonItem key="leftBarButtonItem" image="ic_keyboard_arrow_left_2x.png" id="e0e-v5-oT9"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qsI-V1-5zF">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="play" id="hKZ-ik-UUi"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Vu0-WR-OOM"/>
+                                    <barButtonItem systemItem="pause" id="n3s-jL-Czk"/>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="One" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afb-b8-o2o">
+                                <rect key="frame" x="16" y="238" width="343" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cin-Ne-9jL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.399999999999999" y="869.41529235382313"/>
         </scene>
         <!--TimerViewController-->
         <scene sceneID="5Dp-DU-fKk">
