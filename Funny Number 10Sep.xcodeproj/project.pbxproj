@@ -17,6 +17,7 @@
 		C4AB57F61F64E0A10002F9C9 /* ic_save.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AB57F31F64E0A10002F9C9 /* ic_save.png */; };
 		C4AB57F81F64E2780002F9C9 /* tobias-van-schneider-230167.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4AB57F71F64E2780002F9C9 /* tobias-van-schneider-230167.jpg */; };
 		C4AB57FA1F64FA940002F9C9 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB57F91F64FA940002F9C9 /* MyClass.swift */; };
+		C4AB57FC1F6509C30002F9C9 /* if_3_2509369.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AB57FB1F6509C30002F9C9 /* if_3_2509369.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C4AB57F31F64E0A10002F9C9 /* ic_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save.png; sourceTree = "<group>"; };
 		C4AB57F71F64E2780002F9C9 /* tobias-van-schneider-230167.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tobias-van-schneider-230167.jpg"; sourceTree = "<group>"; };
 		C4AB57F91F64FA940002F9C9 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		C4AB57FB1F6509C30002F9C9 /* if_3_2509369.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_3_2509369.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				C4AB57DF1F64DB130002F9C9 /* AppDelegate.swift */,
 				C4AB57F11F64E0A10002F9C9 /* ic_save_2x.png */,
+				C4AB57FB1F6509C30002F9C9 /* if_3_2509369.png */,
 				C4AB57F21F64E0A10002F9C9 /* ic_save_3x.png */,
 				C4AB57F71F64E2780002F9C9 /* tobias-van-schneider-230167.jpg */,
 				C4AB57F31F64E0A10002F9C9 /* ic_save.png */,
@@ -143,6 +146,7 @@
 				C4AB57EA1F64DB130002F9C9 /* LaunchScreen.storyboard in Resources */,
 				C4AB57E71F64DB130002F9C9 /* Assets.xcassets in Resources */,
 				C4AB57F81F64E2780002F9C9 /* tobias-van-schneider-230167.jpg in Resources */,
+				C4AB57FC1F6509C30002F9C9 /* if_3_2509369.png in Resources */,
 				C4AB57F61F64E0A10002F9C9 /* ic_save.png in Resources */,
 				C4AB57E51F64DB130002F9C9 /* Main.storyboard in Resources */,
 			);

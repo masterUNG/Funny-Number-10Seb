@@ -15,6 +15,16 @@ class ViewController: UIViewController {
     
     
     
+    @IBAction func homeButton(_ sender: Any) {
+        let myClass = MyClass()
+       numberAInt = myClass.oneNumber()
+        numberLabel.text = String(numberAInt)
+    }
+    
+    
+    
+    
+    
     
     @IBOutlet weak var numberLabel: UILabel!
     

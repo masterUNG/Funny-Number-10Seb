@@ -10,6 +10,10 @@ import Foundation
 
 class MyClass{
     
+    func oneNumber() -> Int {
+        return 1
+    }
+    
     func decNumber(intNumber: Int) -> Int {
         let result = intNumber - 1
         return result
