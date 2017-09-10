@@ -6,13 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HomeViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Funny_Number_10Sep" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="HomeViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Funny_Number_10Sep" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -57,6 +58,9 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="QJY-S0-sw6"/>
                                     <barButtonItem image="ic_save.png" id="L2G-ud-r32">
                                         <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="I5e-WD-4Wg" kind="show" id="uGn-LQ-GuI"/>
+                                        </connections>
                                     </barButtonItem>
                                 </items>
                             </toolbar>
@@ -82,8 +86,66 @@
             </objects>
             <point key="canvasLocation" x="-791" y="170"/>
         </scene>
+        <!--TimerViewController-->
+        <scene sceneID="5Dp-DU-fKk">
+            <objects>
+                <viewController title="TimerViewController" id="I5e-WD-4Wg" customClass="TimerViewController" customModule="Funny_Number_10Sep" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0hI-Sf-o8I"/>
+                        <viewControllerLayoutGuide type="bottom" id="XAp-HQ-cws"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ROy-ja-UK9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C6s-ri-qJd">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Timer" id="Fxc-EB-T4N">
+                                        <barButtonItem key="leftBarButtonItem" image="ic_keyboard_arrow_left_2x.png" id="2mX-g0-SDO">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="xgc-Kf-nI0"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="0De-Tv-O0P"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyn-XL-hmA">
+                                <rect key="frame" x="16" y="243.5" width="343" height="179.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FJq-Qt-Rlc">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="GGM-MV-a0b"/>
+                                    <barButtonItem systemItem="stop" id="fdX-3H-BMz"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zyn-XL-hmA" firstAttribute="centerY" secondItem="ROy-ja-UK9" secondAttribute="centerY" id="0LK-eI-t87"/>
+                            <constraint firstItem="FJq-Qt-Rlc" firstAttribute="leading" secondItem="ROy-ja-UK9" secondAttribute="leading" id="Q4a-ws-50f"/>
+                            <constraint firstAttribute="trailing" secondItem="FJq-Qt-Rlc" secondAttribute="trailing" id="Yjt-fV-M1Z"/>
+                            <constraint firstItem="zyn-XL-hmA" firstAttribute="centerX" secondItem="ROy-ja-UK9" secondAttribute="centerX" id="ZAT-Go-ncY"/>
+                            <constraint firstItem="zyn-XL-hmA" firstAttribute="leading" secondItem="ROy-ja-UK9" secondAttribute="leadingMargin" id="hRF-Rt-7MQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zyn-XL-hmA" secondAttribute="trailing" id="qr2-Pl-DBv"/>
+                            <constraint firstItem="XAp-HQ-cws" firstAttribute="top" secondItem="FJq-Qt-Rlc" secondAttribute="bottom" id="u23-Pz-aOm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eqt-2G-9Fp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.399999999999999" y="169.56521739130437"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="ic_keyboard_arrow_left_2x.png" width="48" height="48"/>
         <image name="ic_save.png" width="24" height="24"/>
         <image name="if_3_2509369.png" width="512" height="512"/>
     </resources>
