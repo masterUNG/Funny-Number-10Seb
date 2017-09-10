@@ -109,7 +109,11 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="xgc-Kf-nI0"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="0De-Tv-O0P"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="0De-Tv-O0P">
+                                            <connections>
+                                                <action selector="playButton:" destination="I5e-WD-4Wg" id="9NQ-zm-h2d"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -123,7 +127,11 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="GGM-MV-a0b"/>
-                                    <barButtonItem systemItem="stop" id="fdX-3H-BMz"/>
+                                    <barButtonItem systemItem="stop" id="fdX-3H-BMz">
+                                        <connections>
+                                            <action selector="stopButton:" destination="I5e-WD-4Wg" id="1mE-ta-115"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -138,6 +146,9 @@
                             <constraint firstItem="XAp-HQ-cws" firstAttribute="top" secondItem="FJq-Qt-Rlc" secondAttribute="bottom" id="u23-Pz-aOm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="zyn-XL-hmA" id="Xse-2N-uiG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eqt-2G-9Fp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
